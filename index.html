@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscrição Culto Xadrez</title>
+</head>
+
+<body>
+
+    <form class="InscricaoCultoXadrex" action="https://sheetdb.io/api/v1/t0tqh67uov0cs" method="POST" name="InscricaoCultoXadrex">
+        <fieldset>
+            <br><br>
+            <legend>Inscrição Culto Xadrez</legend>
+
+            <label>Nome Completo</label>
+            <input name="data[nome]" type="text" placeholder="Digite seu nome completo">
+
+            <br><br>
+
+            <label>Telefone</label>
+            <input name="data[telefone]" type="tel" placeholder="(  ) digite seu telefone">
+
+            <br><br>
+
+            <label for="">O telefone é WhatsApp</label>
+            <input name="data[whatsapp]" type="radio" value="sim"><label>Sim</label>
+            <input name="data[whatsapp]" type="radio" value="nao"><label>Não</label>
+
+            <br><br>
+
+            <label for="">Sexo</label>
+            <input name="data[sexo]" type="radio" value="Masculino"><label>Masculino</label>
+            <input name="data[sexo]" type="radio" value="Feminino"><label>Feminino</label>
+
+            <br><br>
+            <input name="data[situacao]" type="checkbox" value="membro" id="membro"><label>Membro</label>
+            <br><br>
+            <input name="data[situacao]" type="checkbox" value="visitante" id="visitante"><label>Visitante</label>
+
+            <br><br>
+
+            <label>Se for membro, qual seu grupo?</label>
+            <br><br>
+            <select name="data[grupos]">
+                <option selected value="">----Selecione----</option>
+                <option value="Elo">Elo</option>
+                <option value="Loucos por Cristo">Loucos por Cristo</option>
+                <option value="Altar de Milagres">Altar de Milagres</option>
+                <option value="Recepção">Recepção</option>
+                <option value="Lider de Célula">Lider de Célula</option>
+                <option value="Grupo de Mulheres">Grupo de Mulheres</option>
+                <option value="Grupo de Homens">Grupo de Homens</option>
+                <option value="Grupo de Crianças">Grupo de Crianças</option>
+                <option value="Diaconato">Diaconato</option>
+            </select>
+
+            <br><br>
+            <label>Envie sua sugestão, o que não pode faltar no nosso culto Xadrez?</label>
+            <br><br>
+            <textarea name="data[mensagem]" cols="50" rows="10"></textarea>
+
+            <br><br>
+
+            <label>Valor da Inscrição R$ 10,00<label>
+
+                    <br><br>
+                    <a href="https://wa.me/5581985717694" target="_blank">
+                        
+                        <span>Envie o comprovante do pagamento</span>
+                    </a>
+            
+            <br><br>
+                     <div class="botao">
+
+                        <button>Enviar</button>
+                    <br><br>
+
+                    </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
